@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "extension": 3,
+        "name": "Halls of Atonement",
+        "iconLink": "https://wow.zamimg.com/uploads/screenshots/normal/957519.png",
+        "maps": [
+            {
+                "id": 1,
+                "name": "Exterior",
+                "img": ""
+            },
+            {
+                "id": 2,
+                "name": "Interior",
+                "img": ""
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "extension": 2,
+        "name": "Freehold",
+        "iconLink": "/Resources/icon/freehold.png",
+        "maps": [
+            {
+                "id": 1,
+                "name": "Freehold",
+                "img": "/Resources/maps/freehold.png",
+                "packsList": [
+
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Freehold-2",
+                "img": "/Resources/maps/freehold2.png",
+                "packsList": [
+
+                ]
+            }
+        ]
+    }
+]
