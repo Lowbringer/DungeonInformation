@@ -4,23 +4,19 @@ from slpp import slpp as lua
 
 
 dungeonEnemiesKeys = [
-    { "mdt": "id", "di": "wowId"},
-    { "mdt": "name", "di": "name"},
-    { "mdt": "", "di": ""},
-    { "mdt": "", "di": ""},
-    { "mdt": "", "di": ""},
-    { "mdt": "", "di": ""},
-    { "mdt": "", "di": ""},
-    { "mdt": "", "di": ""},
-    { "mdt": "", "di": ""},
-
+    { "mdt": "id", "di": "wowId", "defaultValue": 1},
+    { "mdt": "name", "di": "name", "defaultValue": "mob"},
+    { "mdt": "neutral", "di": "neutral", "defaultValue": False},
+    { "mdt": "creatureType", "di": "creatureType", "defaultValue": "Humanoid"},
+    { "mdt": "level", "di": "level", "defaultValue": 60},
+    { "mdt": "spells", "di": "spells", "defaultValue": []},
 ]
 
 
 def dungeonEnemies(decodedEnemies):
 
     enemies = []
-    groups = {}
+    groups = []
 
 
     id = 1
